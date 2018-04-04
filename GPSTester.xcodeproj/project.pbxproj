@@ -7,17 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC393BBD20746A38001D570E /* GTLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC393BBF20746A38001D570E /* GTLocalizable.strings */; };
+		BC393BC420749CC4001D570E /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC393BC320749CC4001D570E /* CommonUtils.swift */; };
 		BCF71EB72063DED000B4E74A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF71EB62063DED000B4E74A /* AppDelegate.swift */; };
-		BCF71EB92063DED000B4E74A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF71EB82063DED000B4E74A /* ViewController.swift */; };
+		BCF71EB92063DED000B4E74A /* GTMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF71EB82063DED000B4E74A /* GTMainViewController.swift */; };
 		BCF71EBC2063DED000B4E74A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF71EBA2063DED000B4E74A /* Main.storyboard */; };
 		BCF71EBE2063DED000B4E74A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCF71EBD2063DED000B4E74A /* Assets.xcassets */; };
 		BCF71EC12063DED000B4E74A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF71EBF2063DED000B4E74A /* LaunchScreen.storyboard */; };
+		F26E876AF689B5F3B6C430C1 /* Pods_GPSTester.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9441E40095FDDE1576C3B46 /* Pods_GPSTester.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D125D95F346B02F49E96434 /* Pods-GPSTester.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPSTester.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPSTester/Pods-GPSTester.debug.xcconfig"; sourceTree = "<group>"; };
+		92C43EB9A19C6F6A013236FF /* Pods-GPSTester.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPSTester.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPSTester/Pods-GPSTester.release.xcconfig"; sourceTree = "<group>"; };
+		B9441E40095FDDE1576C3B46 /* Pods_GPSTester.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPSTester.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC393BB8207466A8001D570E /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		BC393BBE20746A38001D570E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/GTLocalizable.strings; sourceTree = "<group>"; };
+		BC393BC020746A40001D570E /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/GTLocalizable.strings; sourceTree = "<group>"; };
+		BC393BC320749CC4001D570E /* CommonUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
 		BCF71EB32063DED000B4E74A /* GPSTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF71EB62063DED000B4E74A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BCF71EB82063DED000B4E74A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCF71EB82063DED000B4E74A /* GTMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTMainViewController.swift; sourceTree = "<group>"; };
 		BCF71EBB2063DED000B4E74A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCF71EBD2063DED000B4E74A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCF71EC02063DED000B4E74A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -29,17 +39,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F26E876AF689B5F3B6C430C1 /* Pods_GPSTester.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D86D5DAAD6CAB91C10EEE86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D125D95F346B02F49E96434 /* Pods-GPSTester.debug.xcconfig */,
+				92C43EB9A19C6F6A013236FF /* Pods-GPSTester.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		796398FC7BC05095FEF987D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9441E40095FDDE1576C3B46 /* Pods_GPSTester.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC393BB920746924001D570E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC393BBF20746A38001D570E /* GTLocalizable.strings */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC393BC1207497C8001D570E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BC393BC220749CAA001D570E /* Utils */,
+				BCF71EB82063DED000B4E74A /* GTMainViewController.swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		BC393BC220749CAA001D570E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BC393BC320749CC4001D570E /* CommonUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		BCF71EAA2063DED000B4E74A = {
 			isa = PBXGroup;
 			children = (
 				BCF71EB52063DED000B4E74A /* GPSTester */,
+				BC393BB920746924001D570E /* Supporting Files */,
 				BCF71EB42063DED000B4E74A /* Products */,
+				0D86D5DAAD6CAB91C10EEE86 /* Pods */,
+				796398FC7BC05095FEF987D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,7 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				BCF71EB62063DED000B4E74A /* AppDelegate.swift */,
-				BCF71EB82063DED000B4E74A /* ViewController.swift */,
+				BC393BC1207497C8001D570E /* src */,
 				BCF71EBA2063DED000B4E74A /* Main.storyboard */,
 				BCF71EBD2063DED000B4E74A /* Assets.xcassets */,
 				BCF71EBF2063DED000B4E74A /* LaunchScreen.storyboard */,
@@ -71,9 +127,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCF71EC52063DED000B4E74A /* Build configuration list for PBXNativeTarget "GPSTester" */;
 			buildPhases = (
+				D00E953837215E83457877CD /* [CP] Check Pods Manifest.lock */,
 				BCF71EAF2063DED000B4E74A /* Sources */,
 				BCF71EB02063DED000B4E74A /* Frameworks */,
 				BCF71EB12063DED000B4E74A /* Resources */,
+				1B374DBFC6241262866623B9 /* [CP] Embed Pods Frameworks */,
+				0816094DB7A7DF9E3790FC1F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -107,6 +166,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ko,
 			);
 			mainGroup = BCF71EAA2063DED000B4E74A;
 			productRefGroup = BCF71EB42063DED000B4E74A /* Products */;
@@ -125,18 +185,74 @@
 			files = (
 				BCF71EC12063DED000B4E74A /* LaunchScreen.storyboard in Resources */,
 				BCF71EBE2063DED000B4E74A /* Assets.xcassets in Resources */,
+				BC393BBD20746A38001D570E /* GTLocalizable.strings in Resources */,
 				BCF71EBC2063DED000B4E74A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0816094DB7A7DF9E3790FC1F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPSTester/Pods-GPSTester-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B374DBFC6241262866623B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GPSTester/Pods-GPSTester-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPSTester/Pods-GPSTester-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D00E953837215E83457877CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GPSTester-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BCF71EAF2063DED000B4E74A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCF71EB92063DED000B4E74A /* ViewController.swift in Sources */,
+				BCF71EB92063DED000B4E74A /* GTMainViewController.swift in Sources */,
+				BC393BC420749CC4001D570E /* CommonUtils.swift in Sources */,
 				BCF71EB72063DED000B4E74A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +260,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		BC393BBF20746A38001D570E /* GTLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC393BBE20746A38001D570E /* en */,
+				BC393BC020746A40001D570E /* ko */,
+			);
+			name = GTLocalizable.strings;
+			sourceTree = "<group>";
+		};
 		BCF71EBA2063DED000B4E74A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -156,6 +281,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				BCF71EC02063DED000B4E74A /* Base */,
+				BC393BB8207466A8001D570E /* ko */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -167,6 +293,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -224,6 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -272,11 +400,13 @@
 		};
 		BCF71EC62063DED000B4E74A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D125D95F346B02F49E96434 /* Pods-GPSTester.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93SYKU32SR;
 				INFOPLIST_FILE = GPSTester/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.strawnut.GPSTester;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,11 +417,13 @@
 		};
 		BCF71EC72063DED000B4E74A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92C43EB9A19C6F6A013236FF /* Pods-GPSTester.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93SYKU32SR;
 				INFOPLIST_FILE = GPSTester/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.strawnut.GPSTester;
 				PRODUCT_NAME = "$(TARGET_NAME)";
